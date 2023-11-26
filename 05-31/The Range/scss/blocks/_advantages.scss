@@ -1,0 +1,57 @@
+@import "../vars";
+
+.advantages {
+  min-height: 476px;
+  text-align: center;
+
+  &-inner {
+    padding: 120px 140px 120px 140px;
+  }
+
+  &-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+
+  &-item {
+    padding: 0 15px;
+  }
+
+  &-item::before {
+    content: "";
+    position: absolute;
+    top: 3890px;
+    transform: translateX(-50%);
+    width: 37px;
+    height: 39px;
+    background: url(../../img/Timer.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &-item-dashboard::before {
+    background: url(../../img/Dashboard.svg);
+  }
+
+  &-item-stat::before {
+    background: url(../../img/Stats.svg);
+  }
+
+  &-item-dev::before {
+    background: url(../../img/Menu.svg);
+  }
+  &-title {
+    padding-bottom: 30px;
+    color: $main-color;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &-text {
+    color: #7a8387;
+    font-size: 16px;
+    line-height: 30px;
+  }
+}

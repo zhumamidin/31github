@@ -1,0 +1,15 @@
+@import "../vars";
+.btn {
+  padding: 22px 60px;
+  color: $light-color;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: $main-font;
+  background-color: #58c4c4;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  background-color: #2f8181;
+  transition: ease 1s;
+}

@@ -1,0 +1,40 @@
+@import "../vars";
+.product {
+  max-width: 100%;
+  min-height: 1030px;
+  background: linear-gradient(top left, #9042ac, #2b093d);
+
+  &-img {
+    position: absolute;
+    padding-top: 170px;
+    width: 100%;
+  }
+
+  &-img-descr {
+    position: relative;
+    left: 980px;
+    color: #764c8c;
+    font-size: 12px;
+  }
+
+  &-description {
+    position: relative;
+    top: 110px;
+    left: 650px;
+    max-width: 480px;
+    text-align: right;
+  }
+
+  &-title {
+    font-size: 30px;
+    font-weight: 300;
+    color: $light-color;
+  }
+
+  &-text {
+    padding: 40px 0 60px 0;
+    color: #a87bb7;
+    font-size: 20px;
+    line-height: 33px;
+  }
+}

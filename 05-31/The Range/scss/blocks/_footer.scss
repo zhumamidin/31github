@@ -1,0 +1,38 @@
+@import "../vars";
+
+.footer {
+  min-height: 220px;
+  background-color: #25303e;
+
+  &-top {
+    background: #303d4c;
+  }
+
+  &-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+
+  &-item {
+    padding: 25px 15px;
+  }
+
+  &-link path:hover {
+    fill: $light-color;
+    transition: all 0.5s;
+  }
+
+  &-text {
+    padding: 45px 0 75px 0;
+    font-size: 14px;
+    color: #83969f;
+  }
+
+  &-copyright {
+    padding-right: 100px;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+}

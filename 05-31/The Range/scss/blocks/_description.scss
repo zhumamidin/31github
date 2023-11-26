@@ -1,0 +1,31 @@
+@import "../vars";
+
+.description {
+  max-width: 100%;
+  min-height: 455px;
+  text-align: center;
+  background: url(../../img/description.jpg);
+  background-color: $main-color;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top 85% center;
+  background-blend-mode: soft-light;
+
+  &-inner {
+    padding: 120px 0 100px 0;
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
+  &-title {
+    color: $light-color;
+    font-size: 40px;
+    font-weight: 300;
+  }
+
+  &-text {
+    padding: 35px 0 65px 0;
+    color: #a87bb7;
+    font-size: 20px;
+  }
+}
