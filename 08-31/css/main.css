@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Tinos"), url(../fonts/Tinos-cyrillic.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Tinos-en";
+  font-style: bold;
+  font-weight: 700;
+  src: local("Tinos"), url(../fonts/Tinos-latin.woff2) format("woff2");
+}/*# sourceMappingURL=main.css.map */
