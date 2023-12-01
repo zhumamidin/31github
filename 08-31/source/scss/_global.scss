@@ -1,5 +1,6 @@
 @import '_vars.scss';
 
-body {
-	background-color: #000;
+html {
+	box-sizing: border-box;
+	font-family: $main-font;
 }
