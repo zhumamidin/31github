@@ -1,1 +1,12 @@
 @import '../vars';
+
+.btn {
+	color: #fff;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-decoration: none;
+	padding: 14px 19px 14px 18px;
+	background-color: $btn-color;
+}

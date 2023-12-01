@@ -343,4 +343,46 @@ html {
   max-width: 1120px;
   padding: 0 10px;
   margin: 0 auto;
+}
+
+.btn {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  padding: 14px 19px 14px 18px;
+  background-color: #ff7400;
+}
+
+.header {
+  background: url(../images/header-bg.jpeg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.header__burger {
+  display: none;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__items {
+  display: flex;
+}
+.header__menu {
+  display: flex;
+  gap: 25px;
+}
+.header__menu-link {
+  color: #fff;
+  font-family: "Open Sans", san-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
