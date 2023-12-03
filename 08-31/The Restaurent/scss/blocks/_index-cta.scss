@@ -1,0 +1,48 @@
+@import "../vars";
+
+.index-cta {
+  padding-top: 80px;
+  padding-bottom: 104px;
+  background-image: url(../../img/index-cta-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &__inner {
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    align-items: center;
+
+    @media screen and (max-width: 820px) {
+      grid-template-columns: 1fr;
+      gap: 60px;
+    }
+  }
+
+  &__cta {
+    margin-bottom: 20px;
+    color: #d67e34;
+    font-family: $serif;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  &__price {
+    color: #fff;
+    font-family: $sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  &__btn-wrapper {
+    text-align: right;
+
+    @media screen and (max-width: 820px) {
+      text-align: center;
+    }
+  }
+}

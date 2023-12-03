@@ -1,0 +1,14 @@
+@import "../vars";
+
+.section-title {
+  color: #d67e34;
+  font-family: $serif;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  span {
+    color: #000;
+  }
+}
