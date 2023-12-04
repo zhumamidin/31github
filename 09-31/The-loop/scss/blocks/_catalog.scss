@@ -1,0 +1,94 @@
+@import "../vars";
+
+.catalog {
+  &__top {
+    padding-top: 60px;
+    background-color: $secondary-color;
+  }
+
+  &__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  &__top-column {
+    min-height: 250px;
+    background-image: url(../../images/bg-men-catalog.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+
+  &__top-column--mens {
+    background-position: bottom right 15px;
+  }
+
+  &__top-column--womens {
+    background-image: url(../../images/bg-women-catalog.png);
+    background-position: bottom right 44px;
+  }
+
+  &__title {
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $dark;
+
+    & span {
+      font-weight: 300;
+    }
+  }
+
+  &__descr {
+    font-family: $main-font;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: $dark;
+    margin-bottom: 55px;
+  }
+
+  &__btn {
+    padding: 15px 40px;
+    background-color: $accent-color;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: $secondary-color;
+  }
+
+  &__item {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  &__item-title {
+    position: absolute;
+    bottom: 24px;
+    left: 30px;
+    font-family: $main-font;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: $dark;
+  }
+
+  &__item-title a {
+    color: $dark;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  &__item-img {
+    max-width: 277px;
+  }
+}

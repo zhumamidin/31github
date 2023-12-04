@@ -1,0 +1,36 @@
+@import "../vars";
+
+.info {
+  background-color: $accent-dark;
+  color: $light;
+
+  &__inner {
+    max-width: 590px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    text-align: center;
+  }
+
+  &__title {
+    font-family: $alt-font;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: $light;
+
+    & span {
+      font-family: $main-font;
+      font-weight: 300;
+    }
+  }
+
+  &__txt {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+  }
+}

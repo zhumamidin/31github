@@ -1,0 +1,83 @@
+@import "../vars";
+
+.footer {
+  &__info {
+    padding-top: 73px;
+    padding-bottom: 78px;
+    background-color: $accent-dark;
+    color: $light;
+  }
+
+  &__inner {
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr 3fr 2fr;
+  }
+
+  &__text {
+    max-width: 200px;
+    margin-right: 125px;
+  }
+
+  &__column {
+    margin-right: 20px;
+  }
+
+  &__column:first-child {
+    margin: 0;
+    margin-left: 30px;
+  }
+
+  &__copy-inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__copy p {
+    width: 50%;
+  }
+
+  &__copy p:last-child {
+    text-align: right;
+  }
+
+  & p {
+    font-family: $main-font;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  & h3 {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    align-items: center;
+    text-transform: uppercase;
+    color: $light;
+  }
+
+  & ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  & li {
+    padding: 10px 0;
+  }
+
+  &__column a {
+    font-family: $main-font;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: none;
+    color: $footer-link-color;
+  }
+
+  &__copy p a {
+    text-decoration: none;
+    color: accent-dark;
+  }
+}

@@ -1,0 +1,61 @@
+@import "../vars";
+
+.models {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+
+  &__item {
+    position: relative;
+    padding: 25px;
+    border: 3px solid $accent-color;
+  }
+
+  &__item::before {
+    content: "";
+    left: 25px;
+    right: 25px;
+    top: -3px;
+    bottom: -3px;
+    position: absolute;
+    background-color: transparent;
+    border: 3px solid $light;
+  }
+
+  &__item::after {
+    content: "";
+    left: -3px;
+    right: -3px;
+    top: 25px;
+    bottom: 25px;
+    position: absolute;
+    border: 3px solid $light;
+  }
+
+  & h3 {
+    padding: 0 2em;
+  }
+
+  &__title a {
+    font-family: $main-font;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-decoration: none;
+    color: $dark;
+  }
+
+  &__price {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: $accent-color;
+  }
+}

@@ -1,0 +1,49 @@
+@import "../vars";
+
+.collection {
+  &__inner {
+    padding: 150px 0;
+    text-align: center;
+  }
+
+  &__title {
+    margin: 0 0 100px 0;
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $accent-dark;
+    text-align: center;
+  }
+
+  &__btn {
+    position: relative;
+    margin-top: 103px;
+    padding-right: 64px;
+  }
+
+  &__btn::after {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 8px;
+    right: 35px;
+    top: 17px;
+    background-image: url(../../images/Arrow.svg);
+    background-position: center;
+  }
+
+  &__inner a {
+    padding-right: 64px;
+    font-family: $main-font;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: $light;
+    text-align: center;
+  }
+}

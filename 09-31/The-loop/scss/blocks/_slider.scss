@@ -1,0 +1,117 @@
+@import "../vars";
+
+.slider {
+  background-color: $secondary-color;
+  position: relative;
+
+  &__inner {
+    padding-top: 170px;
+    padding-bottom: 70px;
+  }
+  &__item-inner {
+    display: flex;
+    position: relative;
+    padding: 0 100px;
+  }
+
+  &__text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  &__img {
+    width: 50%;
+  }
+
+  &__price {
+    position: absolute;
+    max-width: 255px;
+    right: 0;
+  }
+
+  &__old-price,
+  &__new-price {
+    display: block;
+  }
+
+  &__old-price {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-decoration-line: line-through;
+    text-transform: uppercase;
+    color: $dark;
+  }
+
+  &__new-price {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: right;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #d84033;
+  }
+
+  &__title {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+    color: $dark;
+  }
+
+  &__promo {
+    font-family: $main-font;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 67px;
+    letter-spacing: 0.04em;
+    color: $dark;
+    text-transform: uppercase;
+  }
+
+  &__btn {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: $light;
+    text-decoration: none;
+    padding: 17px 30px 18px 29px;
+    background-color: $accent-color;
+  }
+
+  .slick-dots {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .slick-dots button {
+    font-size: 0;
+    border: none;
+    width: 40px;
+    height: 7px;
+    margin-right: 15px;
+    background-color: #cecece;
+    cursor: pointer;
+  }
+
+  .slick-active button {
+    background-color: $accent-color;
+  }
+}

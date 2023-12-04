@@ -1,0 +1,58 @@
+@import "../vars";
+
+.header {
+  background-color: $secondary-color;
+
+  &__inner {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__nav {
+    max-width: 445px;
+    order: -1;
+  }
+
+  &__menu-item {
+    &:hover .header__submenu {
+      display: block;
+    }
+  }
+
+  &__submenu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: $accent-color;
+    z-index: 2;
+  }
+
+  &__submenu-link {
+    color: $dark;
+    text-decoration: none;
+    display: block;
+    padding: 0.8em 0.3em;
+  }
+
+  &__links {
+    width: 220px;
+  }
+  &__link {
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: $dark;
+    text-decoration: none;
+  }
+
+  &__link + &__link {
+    margin-left: 35px;
+  }
+}
