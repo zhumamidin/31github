@@ -58,7 +58,7 @@ p {
 
 .header {
   max-width: 100%;
-  background: url(../../img/header.jpg);
+  background: url(../img/header.jpg);
   min-height: 1460px;
   text-align: center;
 }
