@@ -1,0 +1,14 @@
+@import "../vars";
+
+.btn {
+  a {
+    color: #fff;
+    font-family: $main-font;
+    padding: 23px 40px;
+    border-radius: 100px;
+    font-weight: 600;
+    background-color: $special-color;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}

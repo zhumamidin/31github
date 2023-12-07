@@ -1,0 +1,9 @@
+@import "vars";
+body {
+  background-color: $bg-color;
+  font-family: $main-font;
+}
+
+.special {
+  color: $special-color;
+}

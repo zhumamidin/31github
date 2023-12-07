@@ -1,0 +1,42 @@
+@import "../vars";
+
+.intro {
+  background: linear-gradient(to bottom left, #ffebd3, 20%, #ffffff);
+  padding-top: 10em;
+
+  p a {
+    color: $dark;
+    font-size: 1em;
+    line-height: 21px;
+    font-family: $main-font;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #fff0dc;
+    padding: 1em;
+    border-radius: 100px;
+  }
+
+  h1 {
+    padding-top: 78px;
+    font-size: 3.5em;
+    font-weight: 700;
+    line-height: 73px;
+  }
+
+  h4 {
+    padding-top: 112px;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 38px;
+  }
+
+  p {
+    color: #828282;
+    font-size: 1em;
+    font-weight: 500;
+  }
+
+  button {
+    margin-top: 3em;
+  }
+}

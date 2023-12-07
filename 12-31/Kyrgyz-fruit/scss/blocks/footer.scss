@@ -1,0 +1,34 @@
+@import "../vars";
+
+.footer {
+  .logo {
+    font-family: "Roboto", sans-serif;
+    color: $special-color;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5em;
+
+    & .logo-black {
+      color: #000000;
+    }
+  }
+
+  &-location-img {
+    width: 10%;
+  }
+
+  &-items {
+    li {
+      list-style: none;
+      padding-top: 2em;
+    }
+
+    a {
+      text-decoration: none;
+      color: #575757;
+    }
+  }
+  .social a {
+    text-decoration: none;
+  }
+}

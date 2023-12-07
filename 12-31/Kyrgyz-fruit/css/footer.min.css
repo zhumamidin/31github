@@ -1,0 +1,29 @@
+.footer .logo {
+  font-family: "Roboto", sans-serif;
+  color: #fb9333;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.footer .logo .logo-black {
+  color: #000000;
+}
+
+.footer-location-img {
+  width: 10%;
+}
+
+.footer-items li {
+  list-style: none;
+  padding-top: 2em;
+}
+
+.footer-items a {
+  text-decoration: none;
+  color: #575757;
+}
+
+.footer .social a {
+  text-decoration: none;
+}
