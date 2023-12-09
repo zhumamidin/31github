@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.clock {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #f0f0f0;
+}
+
+.hand {
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 65px;
+  width: 3px;
+  transform-origin: bottom center;
+}
+
+.hand.hour {
+  transform: translate(-50%, -100%) rotate(0deg);
+}
+
+.hand.minute {
+  transform: translate(-50%, -100%) rotate(0deg);
+  height: 100px;
+}
+
+.hand.second {
+  transform: translate(-50%, -100%) rotate(0deg);
+  height: 100px;
+  background-color: #e74c3c;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #e74c3c;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.center::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.time {
+  font-size: 60px;
+  text-align: center;
+}
+
+.date {
+  text-align: center;
+  color: #aaa;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.date span {
+  background-color: black;
+  color: #fff;
+  width: 18px;
+  height: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  line-height: 18px;
+  border-radius: 50%;
+}
