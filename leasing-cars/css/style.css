@@ -30,6 +30,7 @@ body {
 	font-family: 'Inter', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
+	line-height: 1.2;
 }
 
 .header {
@@ -57,4 +58,42 @@ body {
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
+}
+
+.footer {
+	background-color: #151515;
+	padding: 50px 0 32px;
+	color: #fff;
+}
+
+.footer__menu {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 50px;
+}
+
+.footer__menu-list {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	max-width: 250px;
+}
+
+.footer__menu-title {
+	font-size: 24px;
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+
+.app {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	margin-bottom: 52px;
+}
+
+.footer__copy {
+	max-width: 810px;
+	margin: 0 auto 30px;
+	text-align: center;
 }
