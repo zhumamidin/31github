@@ -509,3 +509,9 @@ body {
 	border: 1px solid #0066FF;
 	border-top: none;
 }
+
+@media (max-width: 1100px) {
+	.container {
+		max-width: 1000px;
+	}
+}
