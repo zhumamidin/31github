@@ -586,3 +586,57 @@ body {
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
+
+@media (max-width: 768px) {
+	.top__title {
+		font-size: 70px;
+	}
+
+	.top__link {
+		max-width: 360px;
+		padding: 16px;
+		font-size: 28px;
+	}
+
+	.swiper-pagination-bullet {
+		width: 60px;
+
+	}
+
+	.swiper-pagination-bullet-active {
+		height: 4px;
+	}
+
+	.video__content {
+		height: 400px;
+	}
+
+	.footer__menu {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 40px;
+	}
+
+
+}
+
+@media (max-width: 540px) {
+	.top__title {
+		font-size: 60px;
+	}
+
+	.top__link {
+		max-width: 310px;
+		padding: 16px;
+		font-size: 24px;
+	}
+
+	.swiper-pagination-bullet {
+		width: 35px;
+	}
+
+
+	.why-lease__list {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
