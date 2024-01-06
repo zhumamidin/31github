@@ -458,6 +458,9 @@ body {
 .accessories__item {
   padding: 20px;
   border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
 }
 
@@ -468,10 +471,12 @@ body {
 .accessories__item-title {
   font-size: 24px;
   color: #070707;
+  min-height: 67px;
 }
 
 .accessories__item-text {
   margin-bottom: 35px;
+  margin-top: auto;
 }
 
 
@@ -480,6 +485,7 @@ body {
   line-height: 18px;
   color: #070707;
   margin-bottom: 20px;
+  margin-top: auto;
 }
 
 .accessories__item-btn {
@@ -487,4 +493,6 @@ body {
   border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
   padding: 6px;
   font-weight: 700;
+  text-align: center;
+  width: 100%;
 }
